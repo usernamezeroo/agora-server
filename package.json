@@ -1,0 +1,17 @@
+{
+  "name": "agora-server",
+  "version": "1.0.0",
+  "description": "A Node.js server for generating secure Agora tokens",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["agora", "webrtc", "video-chat", "token-server"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "agora-access-token": "^2.0.4",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
